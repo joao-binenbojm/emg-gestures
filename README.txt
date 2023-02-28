@@ -1,3 +1,7 @@
+This repository is used to investigate various classical EMG gesture classification approaches on the EMG Gestures dataset available from the UCI repository. Below is information of the README from the original data.
+
+
+
 EMG Pattern Database
 
 For recording patterns, we used a MYO Thalmic bracelet worn on a user’s forearm, and a PC with a Bluetooth receiver. The bracelet is equipped with eight sensors equally spaced around the forearm that simultaneously acquire myographic signals. The signals are sent through a Bluetooth interface to a PC. 
