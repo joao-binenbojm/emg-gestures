@@ -1,4 +1,7 @@
-This repository is used to investigate various classical EMG gesture classification approaches on the EMG Gestures dataset available from the UCI repository. Below is information of the README from the original data.
+This repository is used to investigate various classical EMG gesture classification approaches on the EMG Gestures dataset available from the UCI repository. I've primarily focused on using simple window-based classification approaches with time-domain features from the work of Englehart and Hudgins (2003), including a PCA/LDA analysis and LDA-based classification. When training on a single subject and single trial, the performance on the same's subject second trial was poor (~30-40% accuracy). When training classifier on a training set containing data across trials/subjects, as well as when training on a subset of subjects (and testing on held-out subjects), performance was reasonable given task complexity (~65-75% accuracy). All in all, it would've been good to investigate the effects of inter-trial variability with more trials of data available.=
+
+
+Below is information of the README from the original data.
 
 
 
